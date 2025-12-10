@@ -10,22 +10,22 @@ let estudo = "Os sites que mais me ajudaram na criação dos meus códigos foram
 texto.innerHTML = sobre;
 
 botao1.addEventListener("click", function(){
-    botao1.style.backgroundColor = "grey";
-    botao2.style.backgroundColor = "purple";
-    botao3.style.backgroundColor = "purple";
+    botao1.style.backgroundColor = "rgb(50, 36, 98)";
+    botao2.style.backgroundColor = "rgb(67, 59, 138)";
+    botao3.style.backgroundColor = "rgb(67, 59, 138)";
     texto.innerHTML = sobre;
 });
 
 botao2.addEventListener("click", function(){
-    botao1.style.backgroundColor = "purple";
-    botao2.style.backgroundColor = "grey";
-    botao3.style.backgroundColor = "purple";
+    botao1.style.backgroundColor = "rgb(67, 59, 138)";
+    botao2.style.backgroundColor = "rgb(50, 36, 98)";
+    botao3.style.backgroundColor = "rgb(67, 59, 138)";
     texto.innerHTML = projetos;
 });
 
 botao3.addEventListener("click", function(){
-    botao1.style.backgroundColor = "purple";
-    botao2.style.backgroundColor = "purple";
-    botao3.style.backgroundColor = "grey";
+    botao1.style.backgroundColor = "rgb(67, 59, 138)";
+    botao2.style.backgroundColor = "rgb(67, 59, 138)";
+    botao3.style.backgroundColor = "rgb(50, 36, 98)";
     texto.innerHTML = estudo;
 });
